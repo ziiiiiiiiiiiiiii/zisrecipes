@@ -28,3 +28,25 @@ ul, ol {
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
+
+.card {
+    display: block;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.2s ease;
+    text-decoration: none;
+    color: inherit;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card-title {
+    padding: 10px;
+    font-weight: bold;
+    color: #b22222;
+}
