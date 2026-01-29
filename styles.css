@@ -116,3 +116,21 @@ h2 {
     margin-right: 12px;
     vertical-align: middle;
 }
+
+.dark-mode-toggle {
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-size: 1em;
+    cursor: pointer;
+    box-shadow: 0 2px 4px var(--card-shadow);
+    transition: background-color 0.3s ease;
+    margin: 20px auto;
+    display: block;
+}
+
+.dark-mode-toggle:hover {
+    background-color: #8b1a1a; /* slightly darker accent */
+}
