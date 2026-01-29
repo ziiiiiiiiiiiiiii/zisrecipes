@@ -134,3 +134,7 @@ h2 {
 .dark-mode-toggle:hover {
     background-color: #8b1a1a; /* slightly darker accent */
 }
+
+body, .card, .container {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
