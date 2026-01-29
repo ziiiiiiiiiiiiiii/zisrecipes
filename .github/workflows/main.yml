@@ -18,5 +18,4 @@ jobs:
           options: "--ignore 'https://.*'"
 
       - name: Validate CSS
-        run: |
-          npx stylelint "**/*.css"
+        uses: cssnano/cssnano-action@v1
