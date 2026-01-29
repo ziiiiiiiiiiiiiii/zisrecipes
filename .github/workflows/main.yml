@@ -15,5 +15,12 @@ jobs:
       - name: Validate HTML
         uses: Cyb3r-Jak3/html5validator-action@v0.4.3
 
-      - name: Validate CSS
-        uses: actionsdesk/w3c-css-validator@v1
+      - name: Validate CSS using W3C API
+        run: |
+          for file in $(find . -name "*.css"); do
+            echo "Validating $file"
+            curl -s -F "file=@$file" https://jigsaw.w3.org/css-validator/validator \
+              | grep -q "Congratulations" \
+              && echo "$file is valid" \
+              || (echo "CSS validation failed for $file" && exit 1)
+          done
