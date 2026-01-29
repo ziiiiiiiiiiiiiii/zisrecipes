@@ -1,5 +1,5 @@
 # zisrecipes
-A simple HTML/CSS website of my authentic home-style Chinese recipes from my mother's kitchen. These are some of the staple dishes I grew up on. Includes an index page with recipe cards that link to all the recipes on separate pages. This project is also used to practice Git workflows, feature branches, pull requests, and GitHub Actions CI.
+A simple HTML/CSS website of authentic home-style Chinese recipes from my mother's kitchen. These are some of the staple dishes I grew up on. Includes an index page with recipe cards that link to all the recipes on separate pages. This project is also used to practice Git workflows, feature branches, pull requests, and GitHub Actions CI.
 
 Feature Branch: ingredient-checkboxes
 - Adds checkboxes to ingredient lists for better usability
